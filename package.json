@@ -1,0 +1,35 @@
+{
+  "name": "vscode-sie",
+  "displayName": "SIE Extension",
+  "description": "SIE extension...",
+  "version": "0.0.1",
+  "publisher": "Simon Segerblom Rex",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Bookkeeping"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "sie",
+        "extensions": [
+          ".si",
+          ".se",
+          "sie"
+        ],
+        "aliases": [
+          "si",
+          "SIE"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[sie]": {
+        "files.encoding": "cp437"
+      }
+    }
+  }
+}
