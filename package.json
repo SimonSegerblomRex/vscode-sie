@@ -12,6 +12,15 @@
   "engines": {
     "vscode": "^1.28.0"
   },
+  "bugs": {
+    "url": "https://github.com/SimonSegerblomRex/vscode-sie/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonSegerblomRex/vscode-sie"
+  },
+  "homepage": "https://github.com/SimonSegerblomRex/vscode-sie",
+  "qna": "https://github.com/SimonSegerblomRex/vscode-sie/issues",
   "keywords": [
     "SIE",
     "accounting",
@@ -20,6 +29,7 @@
   "categories": [
     "Programming Languages"
   ],
+  "icon": "images/icon.png",
   "contributes": {
     "languages": [
       {
