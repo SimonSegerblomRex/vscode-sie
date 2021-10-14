@@ -20,14 +20,15 @@
           "sie"
         ],
         "aliases": [
-          "si",
-          "SIE"
+          "SIE",
+          "sie"
         ],
         "configuration": "./language-configuration.json"
       }
     ],
     "configurationDefaults": {
       "[sie]": {
+        "files.autoGuessEncoding": false,
         "files.encoding": "cp437"
       }
     }
