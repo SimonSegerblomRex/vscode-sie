@@ -1,0 +1,20 @@
+{
+  "scopeName": "source.sie",
+  "patterns": [{ "include": "#expression" }],
+  "repository": {
+    "expression": {
+      "patterns": [
+        { "include": "#line-comment" },
+        { "include": "#entry-keyword" }
+      ]
+    },
+    "line-comment": {
+      "name": "comment.line.sie",
+      "match": "^#PROSA.*$"
+    },
+    "entry-keyword": {
+        "name": "keyword.other.entry",
+        "match": "#[A-Z]+"
+    }
+  }
+}

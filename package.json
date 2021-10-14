@@ -26,6 +26,13 @@
         "configuration": "./language-configuration.json"
       }
     ],
+    "grammars": [
+      {
+        "language": "sie",
+        "scopeName": "source.sie",
+        "path": "./syntaxes/abc.tmGrammar.json"
+      }
+    ],
     "configurationDefaults": {
       "[sie]": {
         "files.autoGuessEncoding": false,
