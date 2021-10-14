@@ -5,7 +5,8 @@
     "expression": {
       "patterns": [
         { "include": "#line-comment" },
-        { "include": "#entry-keyword" }
+        { "include": "#entry-keyword" },
+        { "include": "#double-quoted-string" }
       ]
     },
     "line-comment": {
@@ -13,8 +14,12 @@
       "match": "^#PROSA.*$"
     },
     "entry-keyword": {
-        "name": "keyword.other.entry",
+        "name": "keyword.other.entry.sie",
         "match": "#[A-Z]+"
+    },
+    "double-quoted-string": {
+        "name": "string.quoted.double.sie",
+        "match": "\"[^\"]*\""
     }
   }
 }
