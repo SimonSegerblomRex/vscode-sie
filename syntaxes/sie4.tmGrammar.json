@@ -1,5 +1,5 @@
 {
-  "scopeName": "source.sie",
+  "scopeName": "source.sie4",
   "patterns": [{ "include": "#expression" }],
   "repository": {
     "expression": {
