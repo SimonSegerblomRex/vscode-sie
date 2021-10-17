@@ -2,7 +2,7 @@
   "name": "vscode-sie",
   "displayName": "SIE",
   "description": "SIE syntax highlighting",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "publisher": "SimonSegerblomRex",
   "readme": "README.md",
   "author": {
@@ -35,8 +35,8 @@
       {
         "id": "sie4",
         "extensions": [
-          ".si",
-          ".se"
+          ".se",
+          ".si"
         ],
         "aliases": [
           "SIE4"

@@ -4,48 +4,50 @@
   xmlns="http://www.w3.org/2000/svg"
 >
   <rect
-    width="100%" height="100%"
+    width="118" height="118"
+    x="5" y="5"
     rx="10" ry="10"
-    style="fill:white"
+    style="fill:rgb(117,26,255);stroke:white;stroke-width:10"
   />
   <text
-    x="74" y="76"
+    x="70" y="74"
     font-size="10"
     font-family="monospace"
     text-anchor="start"
-    style="fill:orange"
+    style="fill:rgb(204,102,0)"
   >
     #VER "" "" 20211015 "Fjärrvärme september"
-    <tspan x="74" dy="10">{</tspan>
-    <tspan x="84" dy="10">#TRANS 1930 {} -2258.00</tspan>
-    <tspan x="84" dy="10">#TRANS 5130 {} 2258.00</tspan>
-    <tspan x="74" dy="10">}</tspan>
+    <tspan x="70" dy="10">{</tspan>
+    <tspan x="80" dy="10">#TRANS 1930 {} -2258.00</tspan>
+    <tspan x="80" dy="10">#TRANS 5130 {} 2258.00</tspan>
+    <tspan x="70" dy="10">}</tspan>
   </text>
   <text
-    x="10" y="60"
+    x="64" y="60"
     font-size="60"
-    font-family="sans-serif"
+    font-family="DejaVu Sans;sans-serif"
     font-weight="bold"
-    text-anchor="start"
+    text-anchor="middle"
     style="fill:black"
   >
     SIE
   </text>
   <text
-    x="16" y="84"
+    x="16" y="80"
     font-size="16"
     font-family="monospace"
     font-weight="bold"
     text-anchor="start"
-    style="fill:blue"
+    style="fill:black"
   >
-    *.sie
-    <tspan x="16" dy="16">*.si</tspan>
-    <tspan x="16" dy="16">*.se</tspan>
+    .se
+    <tspan x="16" dy="16">.si</tspan>
+    <tspan x="16" dy="16">.sie</tspan>
   </text>
   <rect
-    width="100%" height="100%"
+    width="118" height="118"
+    x="5" y="5"
     rx="10" ry="10"
-    style="fill:black;stroke:rgb(150,0,0);stroke-width:10;fill-opacity:0.25;stroke-opacity:1.0"
+    style="fill:black;stroke:black;stroke-width:10;fill-opacity:0.0;stroke-opacity:1.0"
   />
 </svg>
