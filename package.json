@@ -2,7 +2,7 @@
   "name": "vscode-sie",
   "displayName": "SIE",
   "description": "SIE syntax highlighting",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "SimonSegerblomRex",
   "readme": "README.md",
   "author": {
@@ -24,7 +24,8 @@
   "keywords": [
     "SIE",
     "accounting",
-    "bookeeping"
+    "bookkeeping",
+    "si"
   ],
   "categories": [
     "Programming Languages"
