@@ -30,6 +30,10 @@
     "Programming Languages"
   ],
   "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": " #995c00",
+    "theme": "dark"
+  },
   "contributes": {
     "languages": [
       {
